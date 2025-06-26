@@ -78,7 +78,7 @@ An example of the output of a program with no lexical errors is shown below:
 
 4 begin
 
-5 7 + 2 * (5 + 4);
+    5 7 + 2 * (5 + 4);
 
 6 end;
 
@@ -95,7 +95,7 @@ line:
 
 4 begin
 
-5 7 $ 2 ? (2 + 4);
+    5 7 $ 2 ? (2 + 4);
 
 Lexical Error, Invalid Character $
 
