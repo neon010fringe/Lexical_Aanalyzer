@@ -1,0 +1,8 @@
+// Complex real literals and edge-case identifiers
+function main returns real;
+begin
+    some__Var1: real is 1.2e-3;
+    another_1_: real is .0e+0;
+    wrong_1__: real is 3.4E+Z;
+    _badName: real is 2.3;
+end;
