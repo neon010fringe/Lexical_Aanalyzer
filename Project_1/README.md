@@ -71,10 +71,15 @@ have occurred on the previous line and then clear the queue of messages.
 An example of the output of a program with no lexical errors is shown below:
 
 1 // Function with Arithmetic Expression
+
 2
+
 3 function main returns integer;
+
 4 begin
+
 5 7 + 2 * (5 + 4);
+
 6 end;
 
 Compiled Successfully
@@ -83,13 +88,21 @@ Here is the required output for a program that contains more than one lexical er
 line:
 
 1 // Function with Two Lexical Errors
+
 2
+
 3 function main returns integer;
+
 4 begin
+
 5 7 $ 2 ? (2 + 4);
+
 Lexical Error, Invalid Character $
+
 Lexical Error, Invalid Character ?
+
 6 end;
+
 Lexical Errors 2
 Syntax Errors 0
 Semantic Errors 0
